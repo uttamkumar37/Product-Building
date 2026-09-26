@@ -1,0 +1,97 @@
+# Repository Copilot Instructions
+
+## Repository Overview
+
+**Product-Building** is currently a placeholder repository. Its only file is `README.md`, which contains just the title "Product-Building". No purpose, product, code or documentation is recorded, so this file does not describe any product, stack or architecture. Sibling repositories (CloudCampus, SpeakBetter, bloghub-rest-api, math-ukglab) are separate products; do not assume this repo contains or coordinates them.
+
+**Manual review needed:** once the repository has real content (for example product notes, specs or a codebase), replace this file with a specific version.
+
+## Technology Stack
+
+None verified. Do not assume any language, framework, database or cloud provider. Determine the stack from files that actually exist, or ask the maintainer.
+
+## Repository Structure
+
+```
+README.md    title only
+```
+
+## Architecture
+
+Not defined.
+
+## Development Commands
+
+None. There is no build, test, lint or run tooling.
+
+## Coding Guidelines
+
+- Ask what this repository should hold (product ideas, specs, a shared codebase, planning docs) before adding anything substantial.
+- If adding documents, prefer one focused Markdown file per product or decision with a clear problem statement, target user, scope, and open questions. Keep an index in `README.md`.
+- If adding code later, keep each product in its own top-level directory with its own README and build instructions, and follow the conventions of the first committed code.
+- Update this instruction file when real structure appears.
+
+## Testing
+
+No tests exist. Do not claim any. If code is added, document its test commands here.
+
+## Security
+
+Never commit secrets, credentials, customer data or private business information. Keep any product-strategy content limited to what the maintainer intends to publish if the repository is public.
+
+## Infrastructure / Deployment
+
+None present.
+
+## Change Guidelines
+
+1. Understand what currently exists (only the README).
+2. Make the smallest coherent change.
+3. Do not invent product scope, users or roadmap; get them from the maintainer.
+4. Do not introduce tooling or dependencies without stating why.
+5. Verify anything you add (links, commands) before calling it done.
+6. Do not leave commented-out content.
+7. Do not leave TODO placeholders unless explicitly requested.
+8. Do not fabricate implementation status.
+9. Do not claim something was tested unless it was actually executed.
+
+## Code Quality Rules
+
+- Prefer clear, concise writing and simple structure over elaborate scaffolding.
+- Avoid duplicating content that lives in the individual product repositories; link instead.
+- Use consistent naming from the first file onward.
+- Avoid unrelated changes during focused work.
+
+## Git Commit Rules
+
+- Never add a `Co-Authored-By` trailer unless I explicitly request it.
+- Never add Claude, Anthropic, GitHub Copilot, OpenAI, ChatGPT, Codex, Cursor, or any AI tool as an author or co-author.
+- Use only the configured Git `user.name` and `user.email`.
+- Do not mention AI assistance in commit messages.
+- Keep commit messages concise and professional.
+- Do not commit automatically unless I explicitly ask.
+- Do not push automatically unless I explicitly ask.
+- Never force-push unless I explicitly request it.
+- Never rewrite Git history unless I explicitly request it.
+
+## AI Assistant Working Rules
+
+When working in this repository:
+
+- Inspect existing code before proposing architecture changes.
+- Do not assume a feature exists without verifying it.
+- Do not create fake implementations to make UI or tests appear complete.
+- Do not generate random metrics, scores, or placeholder business data unless explicitly requested as test/demo data.
+- Clearly separate verified behavior from assumptions.
+- Prefer completing working vertical slices over creating many unfinished placeholders.
+- Preserve repository conventions.
+- Avoid massive rewrites unless explicitly requested.
+- When fixing a bug, identify the underlying cause where practical.
+- When adding functionality, consider error handling and tests.
+- Never expose secrets, API keys, tokens, or credentials.
+- Never hardcode secrets.
+
+## Repository-Specific Rules
+
+- The repository has no established purpose in its files. Ask before scaffolding, and never generate placeholder market data, user numbers, revenue figures or roadmaps that read as real.
+- Distinguish clearly between ideas, decisions and shipped work in any document you write.
